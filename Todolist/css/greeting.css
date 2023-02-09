@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Humanbumsuk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden{
+    display: none;
+}
+
+body{
+    text-align: center;
+    margin-top: 9%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* img{
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+h2{
+    font-family: 'Humanbumsuk';
+}
+
+#days{
+    margin-bottom: 0%;
+    color: rgb(255, 255, 255);
+}
+
+#clock{
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 10ch;
+}
+
+#login-form input[type=text] {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2ex;
+    font-family: 'Humanbumsuk';
+	width: 100px;
+	height: 20px;
+    background-color: azure;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid; 
+    outline-color: white;
+}
+
+#login-form input[type=submit]{
+    text-align: center;
+    color: white;
+    font-size: 1.5ex;
+	width: 25px;
+	height: 25px;
+    border-radius: 30px;
+    background: transparent;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+h1{
+    font-family: 'Humanbumsuk';
+    color: white;
+    font-size: 6ch; 
+}
+
+#login-form input[type=submit]:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+hr {
+    width: 30%;
+    border-style: solid;
+    border-color: white;
+}
+
+#title{
+    color: white;
+    margin: 2%;
+    font-size: 40px;
+}
+
+#todo-form input[type=text]{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 3ex;
+	width: 300px;
+	height: 30px;
+    border-radius: 15px;
+    background: transparent;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    outline-color: white;
+    color: white;
+    font-family: 'Humanbumsuk';
+}
+
+ul {
+    font-family: 'Humanbumsuk';
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+ul li{
+    display:flex;
+    justify-content: center;
+}
+
+ul li span{
+    background-color: rgba(255, 255, 255, 0.232);
+    width: 15em;
+}
+
+ul li button{
+    border-color: rgb(236, 225, 225);
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    margin-left: 1ch;
+}
+
+ul li button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+div{
+    margin-top: 15ch;
+    font-family: 'Humanbumsuk';
+    color: rgb(255, 255, 255);
+}
+
+#quote span:first-child{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#quote span:last-child{
+    font-weight: 300;
+    font-size: 1.5em;
+}
