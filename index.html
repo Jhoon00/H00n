@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/greeting.css">
+</head>
+<body>
+    <h2 id="days">000년00월00일</h2>
+    <h2 id="clock">00:00:00</h2>
+    <form id="login-form" class="hidden">
+        <input required maxlength="10" type="text" placeholder="Name">
+        <input type="submit" value=" ">
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <hr>
+    <h2 id="title">Today To Do</h2>
+    <hr>
+    <form id="todo-form">
+        <input type="text" placeholder=" " required>
+    </form>
+    <ul id="todo-list"></ul>
+
+    <div id="quote">
+        <span></span>
+        <br>
+        <span></span>
+    </div>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>
